@@ -1,16 +1,183 @@
-# React + Vite
+# Streamify - Realtime Chat & Video Calling App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview
 
-Currently, two official plugins are available:
+Streamify is a modern real-time chat and video calling application built with **MERN Stack + Stream API**, offering seamless messaging, video calls, friend management, notifications, authentication (JWT), and a clean UI powered by React and TailwindCSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* 🔐 User Authentication (Signup/Login) with JWT
+* 💬 Real-time One-to-One Chat
+* 📹 High-quality Video Calls (Stream SDK)
+* 👥 Friend Requests & Friend Management
+* 🔔 Notification System
+* 🎨 Light/Dark Theme Switching
+* 🌍 Multi-language support
+* 🧩 Modular and Maintainable Code Architecture
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+### **Frontend:**
+
+* React
+* Vite
+* TailwindCSS
+* Axios
+
+### **Backend:**
+
+* Node.js
+* Express.js
+* MongoDB
+* JWT Authentication
+* Stream Chat & Video
+
+### **Tools:**
+
+* Git & GitHub
+* Postman (for testing APIs)
+* VS Code
+
+---
+
+## 📁 Project Structure
+
+```
+streamify/
+│── backend/
+│   ├── controllers/
+│   ├── middleware/
+│   ├── models/
+│   ├── routes/
+│   └── server.js
+│
+│── frontend/
+│   ├── public/
+│   ├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   └── main.jsx
+│
+└── package.json
+```
+
+---
+
+## ⚙️ Setup Instructions
+
+### **1️⃣ Clone the Repository**
+
+```bash
+git clone  https://github.com/bhoomi1301/realtime-chat-and-video-call-app.git
+cd streamify
+```
+
+### **2️⃣ Install Dependencies**
+
+#### Backend:
+
+```bash
+cd backend
+npm install
+```
+
+#### Frontend:
+
+```bash
+cd ../frontend
+npm install
+```
+
+### **3️⃣ Add Environment Variables**
+
+Create a `.env` file inside **backend/**:
+
+```
+PORT=8000
+MONGO_URI=your_mongodb_url
+JWT_SECRET=your_jwt_secret
+STREAM_API_KEY=xxxx
+STREAM_SECRET=xxxx
+```
+
+---
+
+## ▶️ Run the Project
+
+### Backend:
+
+```bash
+npm run dev
+```
+
+### Frontend:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🖼️ Screenshots
+
+> 📌 Add your screenshots in the **frontend/public/screenshots** folder and embed them here.
+
+### **📌 Home Page**
+
+```
+![Home Page](./frontend/public/screenshots/home.png)
+```
+
+### **📌 Chat Page**
+
+```
+![Chat Page](./frontend/public/screenshots/chat.png)
+```
+
+### **📌 Login Page**
+
+```
+![Login](./frontend/public/screenshots/login.png)
+```
+
+---
+
+## 🔮 Future Enhancements
+
+* Group chat & group video calling
+* Voice messages
+* Online/offline user indicator
+* Typing indicator
+* Chat search and filters
+* Media sharing (images, files)
+* Push notifications
+* Improved UI animations
+
+---
+
+## 🤝 Contributing
+
+1. Fork this repo
+2. Create a branch: `git checkout -b feature-xyz`
+3. Commit changes: `git commit -m "Added xyz feature"`
+4. Push: `git push origin feature-xyz`
+5. Open a pull request
+
+---
+
+## 📝 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+## 👩‍💻 Developer
+
+**Bhoomika N.S**
+
+> MCA | Full-Stack Developer | MERN | Stream SDK
