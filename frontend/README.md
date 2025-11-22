@@ -131,7 +131,8 @@ npm run dev
 
 ```
 ![Home Page](./frontend/public/screenshots/home.png)
-```
+```<img width="1863" height="915" alt="home" src="https://github.com/user-attachments/assets/57d7e40e-ecd3-46ac-a8bb-417382938618" />
+
 
 ### **📌 Chat Page**
 
@@ -140,12 +141,14 @@ npm run dev
 ```
 
 ### **📌 Login Page**
+<img width="1845" height="906" alt="chat" src="https://github.com/user-attachments/assets/8300391d-c210-4a26-8657-ed9432356d51" />
 
 ```
 ![Login](./frontend/public/screenshots/login.png)
 ```
 
----
+---<img width="1795" height="888" alt="login" src="https://github.com/user-attachments/assets/1f897b0f-8519-4398-b3b0-34e08fa1b96b" />
+
 
 ## 🔮 Future Enhancements
 
