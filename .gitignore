@@ -1,0 +1,42 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# env
+.env
+.env.*.local
+
+# builds
+/dist
+/build
+/.parcel-cache
+/.vite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# logs
+logs
+*.log
+
+# local databases
+*.sqlite
+*.db
+
+# media / screenshots (optional: if you want to keep images tracked, remove these)
+# screenshots/
+# docs/screenshots/
+
+# Git LFS placeholder - if using LFS, add those file types below:
+# *.png
+# *.jpg
